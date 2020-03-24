@@ -17,6 +17,13 @@
     /* background-color: #542583; */
 }
 
+.toggle-bg {
+    background-color: #542583;
+}
+
+.toggle-text {
+    color:  #fdb827;
+}
 .logo {
     width: 100%;
     height: 5vh;
@@ -35,6 +42,12 @@
     height: auto;
 }
 
+.kobe img:hover {
+    /* width: 38%; */
+    transform: rotate(-5deg);
+    transition: 0.5s ease-in-out;
+}
+
 .footer {
     position: relative;
     width: 100%;
@@ -47,6 +60,11 @@
     right: 0;
     border-style: none;
     background: none;
+}
+
+.btn:hover {
+    letter-spacing: 0.4em;
+    transition: 0.5s ease-in-out;
 }
 
 
