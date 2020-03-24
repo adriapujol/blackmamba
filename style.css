@@ -1,0 +1,46 @@
+* {
+    font-family: Lato, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    padding: 0px 5px;
+    background-size: cover;
+    background-color: #fdb827;
+    /* background-color: #542583; */
+}
+
+.logo {
+    width: 100%;
+    height: 5vh;
+    /* align-self: flex-start; */
+}
+
+.kobe {
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+.kobe img {
+    width: 37%;
+    height: auto;
+}
+
+.footer {
+    position: relative;
+    width: 100%;
+    height: 5vh;
+}
+
+.btn {
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+}
+
+
+
